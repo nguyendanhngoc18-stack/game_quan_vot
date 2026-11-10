@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cao thủ tennis</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      autoplay: "auto",
+      unmuteOverlay: "visible",
+      letterbox: "on",
+      allowNetworking: "none",
+      openUrlMode: "deny",
+      logLevel: "error",
+      splashScreen: true
+    };
+  </script>
+  <script src="./ruffle.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Cao thủ tennis</h1>
+    <div id="game" data-swf="./assets/cao-thu-tennis-1670.swf">
+      Trình duyệt cần JavaScript và WebAssembly để chạy game Flash bằng Ruffle.
+    </div>
+    <p id="game-error" role="status" hidden></p>
+  </main>
+  <script src="./js/game.js"></script>
+</body>
+</html>
